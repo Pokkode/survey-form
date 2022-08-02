@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Pok pay</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+  </head>
+  <body>
+    <header class="topheader">
+    <h1 id="title">POK PAY</h1>
+    <p id="description">Thanks for visiting our payment service. You're absolutely welcome to take this survey.</p>
+    </header>
+    <div class="container">
+    <form action="/submit-survey" id="survey-form">
+      <fieldset>
+      <label id="name-label">Name <input type="text" id="name" name="name" placeholder="name" required></label>
+      <label id="email-label">Email <input type="email" id="email" name="email" placeholder="email" required></label>
+      <label id="number-label">Age <input type="number" id="number" name="age" min="18" max="150" placeholder="age" required></label>
+      <label>How did you hear about us?
+          <select id="dropdown" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">Facebook</option>
+            <option value="2">Twitter</option>
+            <option value="3">Instagram</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <label class="space">Would you recommend Pok Pay to a friend?</label>
+        <label><input type="radio" name="recommend" class="inline" id="no" value="no" /> No</label>
+        <label><input type="radio" name="recommend" class="inline" id="maybe" value="maybe" /> Maybe</label>
+        <label><input type="radio" name="recommend" class="inline" id="definitely" value="definitely"/> Definitely</label>
+        <label class="space">What do you like about Pok pay?
+          <select id="dropdown" name="referrer">
+            <option value="">(select one)</option>
+            <option value="val1">Security</option>
+            <option value="val2">Fast payment</option>
+            <option value="val3">Smooth transaction</option>
+            <option value="val4">Other</option>
+          </select>
+        </label>
+        <label class="space">What are your expectations from us?</label>
+        <label>(Check all that apply)</label>
+        <label><input type="checkbox" name="update" value="blockchain" class="inline"> Es1</label>
+        <label><input type="checkbox" name="update" value="smartcontracts" class="inline"> Es2</label>
+      <label><input type="checkbox" name="update" value="nfts" class="inline"> Es3</label>
+      <label><input type="checkbox" name="update" value="dapps" class="inline"> Es4</label>
+      <label><input type="checkbox" name="update" value="metaverse" class="inline"> Es5</label>
+      <label><input type="checkbox" name="update" value="airdrops" class="inline"> Es6</label>
+      <label><input type="checkbox" name="update" value="tokens" class="inline"> Es7</label>
+      <label><input type="checkbox" name="update" value="virtualreality" class="inline"> Es8</label>
+      <label class="space">Any message?
+      <textarea name="bio" rows="5" cols="50" placeholder="I like online payments..."></textarea></label>
+      <input type="submit" id="submit" value="submit" class="space">
+      </fieldset>
+      
+      
+    </form>
+    </div>
+
+  </body>
+</html>
