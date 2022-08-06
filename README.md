@@ -3,7 +3,7 @@ A survey form used to collect information from users.
 
 
 # Objective:
-To build an app that is functionally similar to https://survey-form.freecodecamp.rocks (certification project)
+To build an app that is functionally similar to https://survey-form.freecodecamp.rocks
 # Tech Stack
 
 **Client:** HTML, CSS
