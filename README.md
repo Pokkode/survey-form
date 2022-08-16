@@ -1,8 +1,10 @@
 # Survey form
+
 A survey form used to collect information from users.
 
 
 ## Objective:
+
 To build an app that is functionally similar to https://survey-form.freecodecamp.rocks
 
 ## Tech Stack
@@ -33,4 +35,5 @@ https://pokkode.github.io/survey-form/
 
 
 ## Skills
+
 HTML, CSS
